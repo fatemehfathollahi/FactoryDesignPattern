@@ -9,7 +9,7 @@ namespace FactoryDesignPattern
             VehicalFactory factory = new ConcreteVehicalFactory();
             IFactory scooter = factory.GetVehical("Scooter");
             scooter.Drive(20);
-            IFactory bike = factory.GetVehical("Bike");
+            IFactory bike = factory.GetVehical("Bike"); 
             bike.Drive(50);
         }
     }
